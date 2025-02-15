@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.login-wrap {
+    display: flex;
+    height: 100vh; /* Full screen height */
+    width: 100%;
+}
+
+.login1, .login2 {
+    width: 40%;
+    height: 100%;
+}
+
+.login1 {
+    background: url("/loginimage.png") no-repeat center center/cover;
+}
+
+.login2 {
+    width: 60%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.poppins{
+    font-family: Poppins, Helvetica, "sans-serif";
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-wrap {
+        flex-direction: column;
+    }
+
+    .login1, .login2 {
+        width: 100%;
+        height: 50vh; /* Each part takes half screen on small devices */
+    }
+}
+
+.ant-table-thead > tr > th {
+    background-color: #3f51b5 !important;
+    color: white !important;
+  }
+  
