@@ -1,8 +1,14 @@
-# React + Vite
+UMS App - User Management System
+A fully functional User Management System (UMS) built with React.js. This app provides complete CRUD functionality, image upload options, filters, and user role management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Features
+✅ Create, Read, Update, and Delete (CRUD) users
+✅ Image upload functionality for user profiles
+✅ Advanced filtering and search options
+✅ Secure authentication and authorization
+✅ Responsive UI with an intuitive dashboard
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Tech Stack
+Frontend: React.js, Redux, Ant Design (AntD)
+Storage: Cloudinary / Local
+Let me know if you need any modifications! 🚀
