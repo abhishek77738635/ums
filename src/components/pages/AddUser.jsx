@@ -169,14 +169,14 @@ export default function AddUser() {
                                 </Form.Item>
                             </Col>
 
-                            <div hidden={user?.id ? true : false} style={{ width: '100%' }}>
+                            <div hidden={user?.id ? true : false} style={{ width: '50%' }}>
                                 <Col lg={12} md={24} sm={24} xl={12} >
                                     <Form.Item
                                         label="Password"
                                         name="password"
                                         rules={[{ required: user?.id ? false : true, message: 'Please input password!' }]}
                                     >
-                                        <Input.Password placeholder="Password" />
+                                        <Input.Password placeholder="Password" style={{ width: '220%' }}/>
                                     </Form.Item>
                                 </Col>
                             </div>

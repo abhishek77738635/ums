@@ -112,6 +112,7 @@ export default function Users() {
         {
             title: "S. No.",
             key: "s_no",
+            width:"90px",
             render: (item, record, index) => index + 1
         },
         {
@@ -394,8 +395,8 @@ export default function Users() {
                 </Col>
             </Row>
             <Spin spinning={loading}>
-                <div style={{ marginTop: '10px' }}>
-                    <Table rowKey={(record) => record.id} columns={columns} dataSource={users} pagination={false} onChange={handleTableChange} rowSelection={rowSelection} />
+                <div style={{ marginTop: '10px',width:"100%" }}>
+                    <Table scroll={{x:"max-content",y:"1000px"}} rowKey={(record) => record.id} columns={columns} dataSource={users} pagination={false} onChange={handleTableChange} rowSelection={rowSelection} />
                     <Row
                         style={{
                             display: "flex",
